@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins :wght@300;400;500;600&display=swap'); 
+:root{
+	--pink:#e84393;
+	--red:#c0392b;
+	--orange :#f39c12;
+	--black:#333;
+	--white:#fff;
+	--light-color:#666;
+	--light-white:#ccc;
+	--light-bg:#f5f5f5;
+	--border:.2rem solid var(--black);
+	 --main-color:rgb(221,47,110);
+	--color-dark:#1D2231;
+     --text-grey:#8390A2;}
+
+	
+	
+	table,tr,td{
+	border: 1.5px solid black;
+	 border-collapse: collapse;
+	}
+	table{
+		font-size:22px;
+		width:900px;
+		margin-top:20px;
+	margin-left:20%;}
+	
+	tr, td {
+		padding:6px 6px;
+		
+ text-align:center;
+}
+
+td form input{
+	width:70px;
+	height:30px;
+	font-size:20px;
+	border:1px black;
+} 
+.addaccount{
+	width:33rem;
+	height:15rem;
+	border-radius:.5rem;
+background-color:var(--white);
+border:1.5px solid black;
+text-align:center;
+margin-top:20px;
+padding:10px 10px 20px 10px;
+margin-left:30%;}
+	
+
+.addaccount form h3{
+	font-size:1.8rem;
+	text-transform:uppercase;
+	color:var(--black);
+}	
+.addaccount form .box{
+	
+	width:15rem;
+	margin:1rem 0;
+	font-size:1.1rem;
+	color:var(--black);
+	height:40px;
+	padding:.3rem .3rem;
+	background-color:var(--light-bg);
+border:1px solid black;}
+.sub{
+	cursor :pointer;
+	width:120px;
+	height:30px;
+font-size:18px;
+color:blue;}
+.sub:hover{
+	
+opacity:1;}
+
+	
+	.account-box{
+	margin-top:6rem;}
+	.total{
+			margin-top:20px;
+			width:80px;
+			background-color:#f1f5f9;
+		margin-left:20%;}
+		.updatecurrency{
+max-width:20rem;
+	height:20rem;
+	border-radius:.5rem;
+background-color:var(--white);
+border:1.5px solid black;
+text-align:center;
+margin-top:20px;
+padding:10px 10px 20px 10px;
+margin-left:30%;}
+
+.updatecurrency form .box{
+	width:100%;
+	margin:1.2rem 0;
+	font-size:1.1rem;
+	color:var(--black);
+	height:40px;
+	padding:.3rem .3rem;
+	background-color:var(--light-bg);
+border:1px solid black;}
+
+		
+		
+.option-btn{
+   
+   border-radius: 2px;
+   width:120px;
+   height:30px;
+   margin-top:10px;
+  margin-left:100px;
+   background-color:#f0f0f1;
+   border-radius:2px;
+   cursor: pointer;
+
+   text-transform: capitalize;
+}
+
+.option-btn a{
+	color:blue;
+ font-size:20px;
+text-decoration:none;}
+
+.option-btn a:hover{
+opacity:1;}
+.message{
+			position:sticky;
+			top:0;
+			margin:0 auto;
+			max-width:1200px;
+			background-color:var(--light-bg);
+		   display:flex;
+		   justify-content: space-between;
+		align-items:center;}
+		
+
+@media (max-width:1200px){
+		.addaccount{
+	     margin-left:25%;}
+	 	
+		table{
+		margin-left:10%;
+        width:800px;}
+		
+        .total{
+		margin-left:10%;}
+		
+}
+
+@media (max-width:990px){
+			.addaccount{
+		margin-left:20%;}
+		
+		table{
+		margin-left:10%;
+		width:700px;}
+		.total{
+		margin-left:10%;}
+		
+		}
+		@media (max-width:800px){
+			.addaccount{
+		margin-left:10%;}
+			table{
+		margin-left:5%;
+		width:600px;}
+		.total{
+		margin-left:5%;}	
+			
+		}
+		@media (max-width:750px){
+			.addaccount{
+		margin-left:5%;}
+			table{
+		margin-left:3%;
+		width:550px;}
+		
+		.updatecurrency{
+			margin-left:10%;}
+		}
+		@media (max-width:600px){
+			.addaccount{
+		margin-left:1%;}
+			table{
+		margin-left:1%;
+		width:300px;}
+		.total{
+		margin-left:1%;}
+		}
+		@media (max-width:550px){
+			.addaccount{
+		width:22rem;
+		height:20rem;
+		}
+		
+			table{
+		
+		width:300px;}
+		}
+		

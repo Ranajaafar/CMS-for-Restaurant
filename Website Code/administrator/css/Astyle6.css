@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins :wght@300;400;500;600&display=swap'); 
+:root{
+	--pink:#e84393;
+	--red:#c0392b;
+	--orange :#f39c12;
+	--black:#333;
+	--white:#fff;
+	--light-color:#666;
+	--light-white:#ccc;
+	--light-bg:#f5f5f5;
+	--border:.2rem solid var(--black);
+	 --main-color:rgb(221,47,110);
+	--color-dark:#1D2231;
+     --text-grey:#8390A2;}
+
+	
+	
+	table,tr,td{
+	border: 1.5px solid black;
+	 border-collapse: collapse;
+	}
+	table{
+		font-size:22px;
+		width:900px;
+		margin-top:30px;
+	margin-left:20%;}
+	
+	tr, td {
+		padding:6px 6px;
+		
+ text-align:center;
+}
+
+td form input{
+	width:70px;
+	height:30px;
+	font-size:20px;
+	border:1px black;
+} 
+.addoffer{
+	width:22rem;
+	height:10rem;
+	border-radius:.5rem;
+background-color:var(--white);
+border:1.5px solid black;
+text-align:center;
+margin-top:20px;
+padding:10px 10px 20px 10px;
+margin-left:35%;}
+	
+
+.addoffer form h3{
+	font-size:1.8rem;
+	text-transform:uppercase;
+	color:var(--black);
+}	
+.addoffer form .box{
+	
+	width:15rem;
+	margin:1rem 0;
+	font-size:1.1rem;
+	color:var(--black);
+	height:40px;
+	padding:.3rem .3rem;
+	background-color:var(--light-bg);
+border:1px solid black;}
+.sub{
+	width:120px;
+	height:30px;
+font-size:18px;
+color:blue;}
+.sub:hover{
+opacity:1;}
+
+	
+	.account-box{
+	margin-top:6rem;}
+	.total{
+			margin-top:20px;
+			width:80px;
+			background-color:#f1f5f9;
+		margin-left:20%;}
+		.message{
+			position:sticky;
+			top:10;
+			margin:0 auto;
+			max-width:1200px;
+			background-color:var(--light-bg);
+		   display:flex;
+		align-items:center;
+		 justify-content: space-between;
+		}
+		
+@media (max-width:1200px){
+		.addoffer{
+	     margin-left:30%;}
+	 	
+		table{
+		margin-left:10%;
+        width:800px;}
+		
+        .total{
+		margin-left:10%;}
+		
+}
+
+@media (max-width:990px){
+			.addoffer{
+		margin-left:25%;}
+		
+		table{
+		margin-left:10%;
+		width:700px;}
+		.total{
+		margin-left:10%;}
+		
+		}
+		@media (max-width:800px){
+			table{
+		margin-left:5%;
+		width:600px;}
+		.total{
+		margin-left:5%;}	
+			
+		}
+		@media (max-width:750px){
+			table{
+		margin-left:3%;
+		width:550px;}
+		}
+		@media (max-width:600px){
+			.addoffer{
+		margin-left:9%;}
+			table{
+		margin-left:1%;
+		width:500px;}
+		.total{
+		margin-left:1%;}
+		}
+		@media (max-width:500px){
+			table{
+		
+		width:420px;}
+		}
+		

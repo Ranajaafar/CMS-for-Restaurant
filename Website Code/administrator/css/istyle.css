@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik :wght@300;400;500;600&display=swap'); 
+:root{
+	--pink:#e84393;
+	--red:#c0392b;
+	--orange :#f39c12;
+	--black:#333;
+	--white:#fff;
+	--light-color:#666;
+	--light-white:#ccc;
+	--light-bg:#f5f5f5;
+	--border:.2rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);}
+	
+	
+	
+*{
+
+margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+	border: none;
+	text-decoration:none;
+	
+	}
+	
+
+	
+
+	
+body{
+background:var(--light-bg);
+
+}
+section{
+	
+padding:3rem 2rem;
+position:relative;
+height:100vh;
+width:100%;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/latavola.jpg");
+background-size:cover;
+background-position:center center;
+
+}
+
+
+
+.form-container{
+	
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform :translate(-50%,-50%);
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	width:380px;
+	padding:50px 30px;
+	border-radius:10px;'
+	box-shadow:7px 7px 60px #000;
+	
+	
+	
+	
+}
+label{
+color:var(--white);}
+
+	h1{
+		margin-top:40px;
+		text-transform:uppercase;
+		font-size:2.2em;
+		color:var(--white);
+		text-align:center;
+		margin-bottom:1.6em;
+		
+	}
+	
+.control input{
+		
+width:100%;
+height:50px;
+display:block;
+padding:10px;
+color:#222;
+border:none;
+font-size:20px;
+outline:none;
+margin:1em 0;}
+
+.control input[type="submit"]{
+	background:crimson;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:1.2em;
+	opacity:.7;
+	transition:opacity .3s ease;
+	
+	
+}
+.control input[type="submit"]:hover{
+	opacity:1;
+background-color:var(--black);}
+
+	
+.msg{
+	color:var(--white);
+	font-size:30px;
+	
+}
+
+
