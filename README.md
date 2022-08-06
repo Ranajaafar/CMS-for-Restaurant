@@ -1,4 +1,4 @@
-# CMS-for-Restaurant
+# CMS for Restaurant
 ### Technologies:
 
 <img src="https://img.shields.io/badge/-PHP-5F259F?logo=PHP&logoColor=fff" />   <img src="https://img.shields.io/badge/-HTML-19A974?logo=html5&logoColor=fff" />
@@ -10,8 +10,8 @@
 
 In this project we have developed two Web applications:
 - User Interface   <a href="https://ranajaafar.000webhostapp.com/user/" >https://ranajaafar.000webhostapp.com/user/</a>
-- Administrator Interface  <a href="https://ranajaafar.000webhostapp.com/administrator/login.php" >https://ranajaafar.000webhostapp.com/administrator/login.php</a>
-
+- Administrator Interface  <a href="https://ranajaafar.000webhostapp.com/administrator/login.php" >https://ranajaafar.000webhostapp.com/administrator/login.php</a>(u can use as SuperAdmin Name=rana , Password=1234 and as Admin Name=root , Password=1278 for Login Page)
+ 
 <h2 align="center" >User Side</h2>
 <b><i>Responsive website </i></b>that sells burger,Plate and Sandwish<br/>
 Main functions of the website:
