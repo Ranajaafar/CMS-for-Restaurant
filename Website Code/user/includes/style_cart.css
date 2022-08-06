@@ -1,0 +1,191 @@
+.p1{
+		margin:2rem;
+		margin-top:12rem;
+		padding: 1rem 2%;
+}	
+.heading1{
+	text-align:center;
+	font-size:4rem;
+	color:#333;
+	 margin-bottom:5rem;
+	padding:1rem;
+	background:rgba(255,196,200);
+	animation:ex 1s;
+}
+#span{
+font-size:1.5rem;
+  color:#999;
+  text-decoration:line-through;
+}
+@keyframes ex{
+	from{font-size:.8rem;}
+}
+.heading1 span{
+	  margin-bottom:5rem;
+	color:var(--red);
+}
+#cart-container{
+  overflow-x:auto;	
+}
+#cart-container table{
+	width:100%;
+	border-collapse:collapse;
+	table-layout:fixed;
+	white-space:nowrap;
+}
+#cart-container table thead{
+	background:var(--red);
+	color:white;
+//	font-size:2rem;
+	height:5rem;
+}
+#cart-container table thead td{ 
+  font-weight:700;
+  text-transform:uppercase;
+  font-size:13px;
+  padding:18px 0;
+  	text-align:center;
+
+}
+#cart-container table tbody tr td{
+	text-align:center;
+	padding-top:15px;
+	
+}
+#cart-container table tbody td{
+	border:1px solid #b6b3b3;
+	padding-bottom:.5rem;
+}
+#cart-container table tbody td{
+	font-size:13px;
+	
+}
+#cart-container table tbody tr td i{
+	font-size:1.7rem;
+	cursor:pointer;
+}
+#cart-container table tbody tr td i:hover{
+	color:var(--red);
+}
+#cart_add{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+#cart_add #subtotal{
+    width:50%;
+margin-bottom:30px;	
+padding-bottom:2rem;
+border:1px solid #e2e9e1;
+//padding:30px;
+}
+#cart_add #subtotal table{
+	border-collapse:collapse;
+	width:100%;
+	margin-bottom:20px;
+}
+#cart_add #subtotal table td{
+	width:50px;
+	border:1px solid #e2e9e1;
+	padding:10px;
+	font-size:13px;
+}
+#cart_add #subtotal h3{
+	background:var(--red);
+	color:white;
+    height:5rem;
+   font-size:3rem;	
+   text-align:center;
+  // vertical-align:middle;
+  padding-top:.5rem;
+}
+.normal{
+  background-color:var(--red);
+  color:#fff;
+  padding:12px 20px;
+  
+margin-left:2rem;
+border:0px;
+cursor:pointer;  
+}
+.normal:hover{
+			background:var(--black);
+}
+#cart_add #coupon{
+	width:45%;
+	height:20rem;
+	//margin-bottom:30px;	
+	border:1px solid #e2e9e1;
+	//margin-right:2rem;
+}
+#cart_add #coupon h3{
+	background:var(--red);
+	color:white;
+    height:5rem;
+	   font-size:3rem;	
+   text-align:center;
+  // vertical-align:middle;
+  padding-top:.5rem;
+}
+#cart_add #coupon input{ 
+	padding:10px 20px;
+	outline:none;
+	width:60%;
+	margin-right:10px;
+	margin-top:2rem;
+	margin-left:2rem;
+	border:1px solid #e2e9e1;
+}
+header .icons #cart-btn{
+  background:var(--red);
+  color:#fff;
+}
+#cart_add #coupon .normal1{
+	width:25%;
+  background-color:var(--red);
+  color:#fff;
+  padding:11px 20px;
+  display:inline;
+  
+//margin-left:2rem;
+border:0px;
+cursor:pointer;  
+}
+#form{
+	display:flex;
+}
+#cart_add #coupon input{
+	text-transform:none;
+}
+#cart_add #coupon .normal1:hover{
+				background:var(--black);
+}
+@media(max-width:800px){
+ 	#cart-container table{
+	   width:auto;
+	}
+	#cart-container table thead td{
+       padding-left:5rem;
+	   padding-right:5rem;
+	}	
+	
+}
+@media(max-width:450px){
+	.heading1{
+	   font-size:3rem;
+	}
+	#cart_add{
+		flex-direction:column;
+	}
+    #cart_add #coupon{
+		 width:100%;
+		 margin-bottom:2rem;
+	}
+#cart_add #subtotal{
+			 width:100%;
+
+}	
+}	

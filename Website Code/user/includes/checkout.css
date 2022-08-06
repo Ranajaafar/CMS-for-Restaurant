@@ -1,0 +1,82 @@
+body{
+    padding:1em 0;
+}
+.bllingDetails{
+    margin-bottom: 1em;
+   // color: #DA9FC5;
+		   color: white;
+  text-shadow:0px 0px 5px #111,0px 0px 25px rgba(255,196,200);
+}
+
+.form-control{
+    padding:.5rem;
+    font-size:.8rem;
+}
+
+.form-check-input{
+    cursor: pointer;
+}
+
+.cond{
+    margin-top: 3em;
+    font-weight:500;
+    font-size: .9rem;
+}
+/*
+.placeOrder {
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+   }
+   
+    .placeOrder:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: rgb(248, 189, 197);
+    ;
+    z-index: -1;
+   }
+   
+    .placeOrder:hover, .placeOrder:focus {
+    color: white;
+   }
+   
+    .placeOrder:hover:before, .placeOrder:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+   }
+   
+    .placeOrder:active {
+    transform: scale(0.9);
+   } */
+#etoile{
+	color:red;
+	display:inline;
+}
+
+@media(max-width:600px){
+
+label{
+    font-size: .9rem;
+}
+}

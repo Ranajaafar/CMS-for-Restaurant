@@ -1,0 +1,108 @@
+.navbar #reservation_header{
+	 text-decoration:underline;
+	 color:rgba(255,30,50);
+}
+.p1{
+		margin:2rem;
+		margin-top:12rem;
+				padding: 1rem 2%;
+}	
+.heading1{
+	text-align:center;
+	font-size:4rem;
+	color:#333;
+	 margin-bottom:5rem;
+	padding:1rem;
+	background:rgba(255,196,200);
+	animation:ex 1s;
+}
+@keyframes ex{
+	from{font-size:.8rem;}
+}
+.heading1 span{
+	  margin-bottom:5rem;
+	color:var(--red);
+}
+.container {
+	text-align:center;
+	margin-bottom:70px;
+}
+.row{
+
+padding: 20px 20px 20px 10px;
+
+}
+.message{
+	
+	font-size:2rem;
+color:red;
+background-color:rgba(255,196,200);
+position:sticky;
+			max-width:800px;
+			
+		   display:flex;
+		   justify-content: space-between;
+		align-items:center;
+
+
+}
+
+input{
+width:300px;
+	
+	font-size:2rem;
+	color:var(--black);
+	height:40px;}
+label{
+	font-size:18px;
+}
+select{
+	    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-size:1.5rem;
+    margin: 0;
+    overflow: hidden;
+    
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#from{
+	font-size:30px;
+	width:300px;
+height:35px;}
+	.waves-effect{
+		margin-top:50px;
+	margin-left:920px;}
+	
+	.btn{
+		margin-left:0rem;
+	}
+	.d1{
+	  margin-left:4%;	
+	}
+	
+@media(max-width:994px){
+	.d1{
+	  margin-top:2rem;	
+	}
+	.btn{
+		margin-top:1rem;
+	}
+}
+@media(max-width:767px){
+	input{
+		margin-bottom:2.5rem;
+	}
+    .d1{
+	  margin-top:0rem;
+	  	//	margin-bottom:2.5rem;
+		margin-left:1%;
+
+	}
+	.row{
+		 padding-left:4%;
+	}
+}
+	

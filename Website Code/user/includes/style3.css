@@ -1,0 +1,187 @@
+.likeItem{
+	  margin:2rem;
+  margin-top:12rem;
+  padding:1rem 2%;
+  //margin-bottom:50rem;
+  //text-align:center;
+}
+	
+.heading1{
+	text-align:center;
+	font-size:4rem;
+	color:#333;
+	  margin-bottom:5rem;
+	padding:1rem;
+	//padding-left:3rem;
+	//padding-right:rem;
+	//margin:2rem 0;
+//	margin-left:-9rem;
+	background:rgba(255,196,200);
+	animation:ex 1s;
+}
+@keyframes ex{
+	from{font-size:.8rem;}
+}	
+.heading1 span{
+	  margin-bottom:5rem;
+	color:var(--red);
+}
+
+.btn3{
+ display:inline-block;
+ background:var(--red); 
+ margin-top:1rem;
+ color:#fff;
+ padding:.8rem 3rem; 
+ font-size:1.7rem;
+ text-align:center;
+ cursor:pointer;
+// margin-left:1rem;
+}	
+.btn3:hover{
+	background:var(--black);
+}
+
+.likeItem .cat-slider{
+	display:flex;
+	flex-wrap:wrap;
+	gap:1.5rem;
+	padding:1rem;
+//	margin-bottom:50rem;
+	
+}
+	
+.likeItem .cat-slider .box{
+	//flex:1 1 30rem;
+//	width:50rem;
+	text-align:center;
+	padding:2rem;
+	border:.1rem solid rgba(0,0,0,.3);
+	border-radius:.5rem;
+	overflow:hidden;
+//	width:10rem;
+	margin-bottom:2rem;
+//	position:relative;
+	//margin-left:2rem;
+	
+}
+.likeItem .cat-slider .box img{
+	width:30rem;
+	height:20rem;
+	//display:flex;
+}
+
+.likeItem .cat-slider .box .discount{
+	position:absolute;
+	top:1rem;
+	left:1rem;
+	background:rgba(255,196,200);
+	color:var(--red);
+	padding:.7rem 1rem;
+	font-size:2rem;
+}
+.price select{
+	width:15rem;
+	//height:3.5rem;
+	//margin-top:-10rem;
+	margin-left:2rem;
+}
+.likeItem .cat-slider .box .iconslike{
+  position:absolute;
+  top:.5rem; right:-5rem;
+}	
+.likeItem .cat-slider .box .iconslike a{
+ display:block;
+ height:4.5rem;
+ width:4.5rem;
+ line-height:4.5rem;
+ font-size:1.7rem;
+ color:var(--black);
+ background:white;
+ border-radius:50%;
+ margin-top:.7rem;
+ cursor:pointer;
+}
+
+header .icons #herar-btn{
+  background:var(--red);
+  color:#fff;
+}
+	
+.likeItem .cat-slider .box .iconslike a:hover{
+		background: rgba(255,196,200);
+	//color:#fff;
+}
+.likeItem .cat-slider .box:hover .iconslike{
+	right:1rem;
+}	
+.likeItem .cat-slider .box h3{
+	color:var(--black);
+	font-size:2.5rem;	
+}
+
+.likeItem .cat-slider .box .stars i{
+	padding:1rem .1rem;
+	font-size:1.7rem;
+	color:black;
+}	
+.likeItem .cat-slider .box .stars span{
+	font-size:1.8rem;
+}	
+.likeItem .cat-slider .box .price{
+  font-size:2rem;
+  color:#333;
+  padding:.5rem 0;
+}	
+.likeItem .cat-slider .box .price span{
+  font-size:2rem;
+  color:#999;
+  text-decoration:line-through;
+}
+	
+.likeItem .cat-slider .box .quantityl{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding-top:1rem;
+}
+.likeItem .cat-slider .box .quantityl span{
+	padding:0 .7rem;
+	font-size:1.7rem;
+}
+.likeItem .cat-slider .box .quantityl input{
+	border:.1rem solid rgba(0,0,0,.3);
+	font-size:1.5rem;
+	font-weight:bolder;
+	color:var(--black);
+	padding:.5rem;
+	background:rgba(0,0,0,.05);
+}
+.likeItem .cat-slider .box .exists{
+	font-size:1.5rem;
+//	margin-top:1rem;
+	background:rgba(255,196,200);
+}	
+	
+@media(max-width:450px){
+	.heading1{
+		font-size:2rem;
+	}
+	
+	.likeItem .cat-slider .box img{
+	   width:98%;
+	}
+    .likeItem .cat-slider .box .stars span{
+	    font-size:1.4rem;
+    }
+   .likeItem{
+     padding:0rem;
+   }
+   .likeItem .cat-slider .box .quantityl input{
+	   width:5rem;
+   }
+   .likeItem .cat-slider .box .iconslike{
+	right:1rem;
+   }	
+}		
+	
